@@ -41,5 +41,9 @@
 
     $string3 = 'They\'re here';
 
+    define('GREETING', 'Hello Everyone');
+    //can add a third param true to remove case sensitive
+    define('GREETING', 'Hello Everyone', true);
+
     echo $string3;
 ?>
