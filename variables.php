@@ -26,8 +26,20 @@
     */
 
     $output = 'Hello World';
+
     $num1 = 4;
+    $num2 = 44;
+    $sum = $num1 + $num2;
+
     $float1 = 4.4;
     $bool1 = true;
-    echo $output;
+
+    $string1 = 'Hello';
+    $string2 = 'World';
+    $greeting = $string1 .' '. $string2. '!';
+    $greeting2 = "$string1 $string2!";
+
+    $string3 = 'They\'re here';
+
+    echo $string3;
 ?>
